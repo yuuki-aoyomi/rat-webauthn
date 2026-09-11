@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Local environment settings
+.env
+.env.*
+!.env.example
+
+# SQLite databases and journal files
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Runtime logs
+*.log
+logs/
+
+# OS metadata
+.DS_Store
+Thumbs.db
